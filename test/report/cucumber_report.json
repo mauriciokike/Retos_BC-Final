@@ -1,0 +1,382 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-21T18:27:27.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validacion de campos requeridos en rocket mortage",
+        "description": "",
+        "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca;validacion-de-campos-requeridos-en-rocket-mortage",
+        "after": [
+          {
+            "result": {
+              "duration": 1104000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "ingreso en la pagina rocket mortage",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_en_la_pagina_rocket_mortage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1867000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "dejo los campos requeridos vacios",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.dejo_los_campos_requeridos_vacios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "se muestra mensaje de advertencia en cada campo.",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.se_muestra_mensaje_de_advertencia_en_cada_campo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-21T18:27:39.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5373000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validacion de campos mayores a 0 en rocket mortage",
+        "description": "",
+        "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca;validacion-de-campos-mayores-a-0-en-rocket-mortage",
+        "after": [
+          {
+            "result": {
+              "duration": 1097000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso en pagina rocket mortage",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_en_pagina_rocket_mortage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1207000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingreso valor 0 en campos Home Price y Interest Rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_valor_en_campos_home_price_y_interest_rate(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "se muestra mensaje de advertencia en cada campo por colocar 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.se_muestra_mensaje_de_advertencia_en_cada_campo_por_colocar(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-21T18:27:48.015Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5258000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validacion de campo Interest Rate mayor a 11 en rocket mortage",
+        "description": "",
+        "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca;validacion-de-campo-interest-rate-mayor-a-11-en-rocket-mortage",
+        "after": [
+          {
+            "result": {
+              "duration": 1102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 238000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "ingreso en ambiente rocket mortage",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_en_ambiente_rocket_mortage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "ingreso valor mayor a 10 en campos Interest Rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_valor_mayor_a_en_campos_interest_rate(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "se muestra mensaje de advertencia en campo Interest Rate al colocar numero mayor a 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 83
+                }
+              ],
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.se_muestra_mensaje_de_advertencia_en_campo_interest_rate_al_colocar_numero_mayor_a(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-21T18:27:55.181Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5498000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validacion total payment con $ en opcion Down Payment en rocket mortage",
+        "description": "",
+        "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca;validacion-total-payment-con-$-en-opcion-down-payment-en-rocket-mortage",
+        "after": [
+          {
+            "result": {
+              "duration": 1099000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "ingreso en web rocket mortage",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_en_web_rocket_mortage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1371000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "selecciono $ en down payment y completo los campos requeridos",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.selecciono_$_en_down_payment_y_completo_los_campos_requeridos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3123000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "valido que Total Payment sea correcto",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.valido_que_total_payment_sea_correcto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-21T18:28:06.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5222000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validacion total payment con % en opcion Down Payment en rocket mortage",
+        "description": "",
+        "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca;validacion-total-payment-con-%-en-opcion-down-payment-en-rocket-mortage",
+        "after": [
+          {
+            "result": {
+              "duration": 1069000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tasks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "ingreso a web rocket mortage",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.ingreso_a_web_rocket_mortage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1382000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "selecciono % en down payment y completo los campos requeridos",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.selecciono_en_down_payment_y_completo_los_campos_requeridos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "valido Total Payment sea correcto",
+            "match": {
+              "location": "stepDefinitions.CalculoDinamicoHipoteca.valido_total_payment_sea_correcto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validacion calculo dinamico de cuota en hipoteca",
+    "description": "",
+    "id": "validacion-calculo-dinamico-de-cuota-en-hipoteca",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CalculoDinamicoHipoteca.feature",
+    "tags": []
+  }
+]
