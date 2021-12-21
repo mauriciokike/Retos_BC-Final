@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
 public class Hooks {
 
     private static ChromeDriver driver;
-    public static ResourceBundle rb = ResourceBundle.getBundle("variablesSearch");
+    public static ResourceBundle rb = ResourceBundle.getBundle("urlBrowser");
 
     @Before
     public void setUp(){
